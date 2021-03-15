@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+  clrscr();
+  int x,y,product=0;
+    cout << "Enter value of x :";
+    cin >>x;
+    cout << "Enter value of y :";
+    cin >>y;
+    product=x*y;
+    cout <<"Multiplication of two numbers:"<<product;
+}
